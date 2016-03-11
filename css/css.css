@@ -6,6 +6,10 @@
  body {
  	background: #666666;
  }
+ #mp3{
+ 	display: none;
+
+ }
  
  .dis {
  	/*dIsplay: none;*/
