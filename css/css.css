@@ -1,3 +1,5 @@
+/*基础部分*/
+
 * {
  	padding: 0;
  	margin: 0 auto;
@@ -11,6 +13,7 @@
 
  }
  
+/*卡片主体开始*/
  .dis {
  	/*dIsplay: none;*/
  	z-index: 20;
@@ -169,7 +172,7 @@
 	-webkit-transform: rotate(-3deg);
 	-moz-transform: rotate(-3deg);
 }
-#top {}
+/*卡片内部开始*/
 .Photo {
 	height: 120px;
 	width: 400px;
