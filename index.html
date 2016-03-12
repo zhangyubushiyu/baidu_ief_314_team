@@ -2,80 +2,114 @@
 <html>
 
 	<head>
-		<meta charset="UTF-8">
-		<title></title>
-		<style type="text/css">
-			* {
-				margin: 0 auto;
-			}
-			
-			.wap {
-				margin-top: 200px;
-				width: 100%;
-				height: 100%;
-			}
-			
-			#a,
-			#b,
-			#c,
-			#d {
-				width: 600px;
-				height: 600px;
-				border-radius: 30px;
-			}
-			
-			#a {
-				background: #e7efc1;
-				-webkit-transform: rotate(-5deg);
-				-moz-transform: rotate(1deg);
-				/*padding: 100px 0 0 -20px;*/
-			}
-			
-			#b {
-				background: #a3d5ab;
-				-webkit-transform: rotate(3deg);
-				-moz-transform: rotate(1deg);
-				position: absolute;
-				left: -10px;
-				top: 15px;
-			}
-			
-			#c {
-				background: #3aadab;
-				-webkit-transform: rotate(3deg);
-				-moz-transform: rotate(1deg);
-				/*padding: 100px 0 0 -20px;*/
-				position: absolute;
-				left: -10px;
-				top: 15px;
-			}
-			
-			#d {
-				background: #547c83;
-				-webkit-transform: rotate(3deg);
-				-moz-transform: rotate(1deg);
-				/*padding: 100px 0 0 -20px;*/
-				position: absolute;
-				left: -10px;
-				top: 15px;
-			}
-		</style>
+		<title>加油加油再加油-团队主页</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/css.css" />
+
 	</head>
 
-	<body style="margin: 0 auto;
-				padding: 0;
-				background: #666666;">
-		<div class="wap">
-			<div id="a">
-				<div id="b">
-					<div id="c">
-						<div id="d">
-						</div>
-					</div>
-				</div>
-			</div>
-
+	<body>
+		<!--背景音乐-->
+		<div id="mp3">
+			<audio autoplay="autoplay" controls="controls" loop="loop" preload="auto" src="http://qzone.haoduoge.com/music2/2014-07-28/Breath and Life.mp3"></audio>
 		</div>
+		<!--卡片开始-->
+		<div id="cntR">
+			<div id="NewsTop">
+				<div id="top"></div>
+				<!--切换卡片-->
+				<div id="NewsTop_tit">
+					<P class="topTit"></P>
+					<P class="topC0" id="topc0_e"></P>
+					<P class="topC0" id="topc0_d"></P>
+					<P class="topC0" id="topc0_c"></P>
+					<P class="topC0" id="topc0_b"></P>
+					<P class="topC0" id="topc0_a"></P>
+
+				</div>
+				<!--卡片主体-->
+				<div id="NewsTop_cnt">
+					<div id="NewsTop_cnt_bj">
+						<SPAN title="Don't delete me"></SPAN>
+						<!--span 独立卡片-->
+						<span id="a">
+							<!--卡片头部内容-->
+							<div class="Photo">
+								<p><d>Name:</d>章鱼不是鱼</p>
+								<img src="img/zhangyu.jpeg"/>
+							</div>
+							<!--个人介绍-->
+							<div class="main">
+							<p>就在刚刚，博客顺利云服务器～ 从购买服务器到备案，再到数据迁移，一共只用了不到 4 天的时间，速度很快吧！就在刚刚，博客顺利迁移到了阿里云服务器～ 从购买服务器到备案，再到数据迁移，一共只用了不到 4 天的时间，速度很快吧！就在刚刚，博客顺利迁移到了阿里云服务器～ 从购买服务器到备案，再到数据迁移，一共只用了不到 4 天的时间，速度很快吧！</p>
+							</div>
+						</span>
+						<span id="b">
+							<div class="Photo">
+								<p><d>Name:</d>真诚你我，一叶知邱</p>
+								<img src="img/leeseean.png"/>
+							</div>
+							<div class="main">
+							<p>我们无法预知明天会发生什么，人的一生就是一部精彩的电影，有出彩也有失色，过好每一天，才对得起那期待的明天。今天的我或许很渺小，明天也许会是别人口中的自豪，不要让落败的一时迷失了双眼，前方就是绿洲，且行且坚持，光辉岁月就此谱写。</p>
+							</div>
+						</span>
+						<span id="c">
+							<div class="Photo">
+								<p><d>Name:</d>馨</p>
+								<img src="img/zhanghuixin.jpg"/>
+							</div>
+							<div class="main">
+							<p>时间就像海绵里的水，只要挤总有的......</p>
+							</div>
+						</span>
+						<span id="d">
+							<div class="Photo">
+								<p><d>Name:</d>章鱼不是鱼</p>
+								<img src="img/zhangyu.jpeg"/>
+							</div>
+							<div class="main">
+							<p>
+								从小对未知的事情都抱有好奇心，在10年前第一次知道前端这么一个职业那时候还是叫“网页制作”，那时只会复制粘贴，完全不知道任何理论知识，后来因为各种原因还是没有走上“网页制作”这条路。时隔10年借着互联网的风前端火起来了，我觉得此时此刻应该重新回归初心做自己感兴趣的事情。我会和团队的小伙一起攻城拔寨。去吧皮卡...
+							</p>
+							</div>
+						</span>
+						<span id="e">
+							<div class="team">
+								Team <br /><br />
+								加油加油再加油
+							</div>
+							
+						</span>
+					</div>
+
+				</div>
+				<div class="NextPage">移动到这翻页</div>
+				<!--实现翻页JS-->
+				<script>
+					var Tags = document.getElementById('NewsTop_tit').getElementsByTagName('p');
+					var TagsCnt = document.getElementById('NewsTop_cnt').getElementsByTagName('span');
+					var len = Tags.length;
+					var flag = 5; //默认先显示第5个片
+					for (i = 1; i < len; i++) {
+						Tags[i].value = i;
+						Tags[i].onmouseover = function() {
+							changeNav(this.value)
+						};
+						TagsCnt[i].className = 'undis';
+					}
+					Tags[flag].className = 'topC1';
+					TagsCnt[flag].className = 'dis';
+
+					function changeNav(v) {
+						Tags[flag].className = 'topC0';
+						TagsCnt[flag].className = 'undis';
+						flag = v;
+						Tags[v].className = 'topC1';
+						TagsCnt[v].className = 'dis';
+					}
+				</script>
+			</div>
+		</div>
+
 	</body>
 
 </html>
